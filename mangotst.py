@@ -10,6 +10,13 @@ d= {
     "email": "akshaykesarkar28@gmail.com",
     "Surname":"kesarkar"
 }
+
+
+d= {
+    "name":"akshaykesarkar",
+    "email": "akshaykesarkar28@gmail.com",
+    "Surname":"kesarkar"
+}
 db1 = client['mongotst']
 coll = db1['test']
 coll.insert_one(d )
