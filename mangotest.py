@@ -1,8 +1,10 @@
 import pymongo
 
 
-client = pymongo.MongoClient("mongodb+srv://ineuron:mongodb123@cluster0.goi2j.mongodb.net/?retryWrites=true&w=majority")
+
+client = pymongo.MongoClient("mongodb+srv://akshay:12345@cluster0.8prah.mongodb.net/?retryWrites=true&w=majority")
 db = client.test
+
 print(db)
 
 d= {
@@ -17,6 +19,6 @@ d= {
     "email": "akshaykesarkar28@gmail.com",
     "Surname":"kesarkar"
 }
-db1 = client['mongotst']
+db1 = client['mongotest']
 coll = db1['test']
 coll.insert_one(d )
